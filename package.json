@@ -6,9 +6,9 @@
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fanxiaowei/react-redux-webpack-antd-demo.git"
+    "url": "https://github.com/fanxiaowei/React-Router-Redux-AntD-Demo.git"
   },
-  "homepage": "https://github.com/fanxiaowei/react-redux-webpack-antd-demo.git",
+  "homepage": "https://github.com/fanxiaowei/React-Router-Redux-AntD-Demo.git",
   "keywords": [
     "react",
     "isomorphic",

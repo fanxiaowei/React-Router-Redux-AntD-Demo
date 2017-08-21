@@ -80,7 +80,7 @@ module.exports = {
   },
   module: {
     loaders: [
-      { test: /\.jsx?$/, exclude: /node_modules/, loaders: ['babel?' + JSON.stringify(babelLoaderQuery), 'eslint-loader']},
+      { test: /\.jsx?$/, exclude: /node_modules/, loaders: ['babel?' + JSON.stringify(babelLoaderQuery),]},
       { test: /\.json$/, loader: 'json-loader' },
        { test: /\.less$/, exclude: /node_modules/,loader: 'style!css?modules&importLoaders=2&localIdentName=[name]__[local]___[hash:base64:8]&sourceMap!autoprefixer?browsers=last 2 version!less?outputStyle=expanded&sourceMap=true&sourceMapContents=true' },
       { test: /\.less$/, include: /node_modules/,loader: 'style!css!' + `less-loader?{"sourceMap":true,"modifyVars":${JSON.stringify(theme)}}`},
